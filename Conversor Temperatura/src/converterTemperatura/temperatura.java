@@ -3,16 +3,17 @@ package converterTemperatura;
 public class temperatura {
 
 	public static void main(String[] args) {
-		// Fórmula conversor temperatura: (°F - 32) x 5/9 = °C
+		// FÃ³rmula conversor temperatura: (Â°F - 32) x 5/9 = Â°C
 		final double FATOR = 5.0/9.0;
 		final double AJUSTE = 32;
 		double fahrenheit = 86;
 		double celsius = ( fahrenheit - AJUSTE ) * FATOR;
-		System.out.println("A conversão de 86°F para °C é:" + celsius + "°C");
+		System.out.println("A conversÃ£o de 86Â°F para Â°C Ã©:" + celsius + "Â°C");
 
+		// MudanÃ§a de temperatura de 86Â°F para 50Â°F !
 		fahrenheit = 50;
 		celsius = ( fahrenheit - AJUSTE ) * FATOR;
-	System.out.println("A conversão de 86°F para °C é:" + celsius + "°C");
+		System.out.println("A conversÃ£o de 86Â°F para Â°C Ã©:" + celsius + "Â°C");
 
 }
 }
